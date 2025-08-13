@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Flavors Unlocked</title>
+    <link rel="icon" href="recipe favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff5e6, #ffe0b2);
+            color: #4e342e;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 30px 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #d84315;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+        }
+        .nav button {
+            padding: 14px 28px;
+            background-color: #ff7043;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .nav button:hover {
+            background-color: #e64a19;
+            transform: scale(1.05);
+        }
+        @media (max-width: 600px) {
+            .container { padding: 15px 5px; }
+            .nav button { font-size: 15px; padding: 10px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flavors Unlocked</h1>
+        <p>Welcome to your global recipe collection! Explore delicious Veg, Non-Veg, and Vegan recipes, or contribute your own. Start your culinary journey below:</p>
+        <div class="nav">
+            <a href="veg.html"><button>Veg Recipes 🥦</button></a>
+            <a href="non_veg.html"><button>Non-Veg Recipes 🍗</button></a>
+            <a href="vegan.html"><button>Vegan Recipes 🥗</button></a>
+            <a href="user_form.html"><button>Contribute a Recipe ✍️</button></a>
+        </div>
+        <p style="font-size:0.95rem;color:#6d4c41;">Bon appétit! 🌍</p>
+    </div>
+</body>
+</html>

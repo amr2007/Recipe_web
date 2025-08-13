@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Cookbook Contributions</title>
+    <link rel="icon" type="image/png" href="recipe favicon.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fff5e6, #ffe0b2);
+            margin: 0;
+            padding: 0;
+            color: #4e342e;
+        }
+
+        h1 {
+            text-align: center;
+            color: #d84315;
+            margin-top: 30px;
+            font-size: 2.2rem;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin: 12px 0 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #d7ccc8;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: #fff8f0;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #bf360c;
+        }
+
+        button {
+            display: block;
+            margin: 25px auto 0;
+            padding: 12px 25px;
+            background-color: #d84315;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #bf360c;
+        }
+
+        /* Chef’s Welcome Styling */
+        .welcome-message {
+            text-align: center;
+            font-style: italic;
+            font-size: 1.1rem;
+            margin: 10px 20px 20px;
+            color: #6d4c41;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav style="background:#d84315; padding:12px 0; text-align:center; margin-bottom:30px; border-radius:0 0 12px 12px;">
+        <a href="index.html" style="color:white; text-decoration:none; margin:0 18px; font-weight:bold;">Home</a>
+        <a href="veg.html" style="color:white; text-decoration:none; margin:0 18px; font-weight:bold;">Veg</a>
+        <a href="non_veg.html" style="color:white; text-decoration:none; margin:0 18px; font-weight:bold;">Non-Veg</a>
+        <a href="vegan.html" style="color:white; text-decoration:none; margin:0 18px; font-weight:bold;">Vegan</a>
+        <a href="user_form.html" style="color:white; text-decoration:none; margin:0 18px; font-weight:bold;">Contribute</a>
+    </nav>
+    <h1>👨‍🍳 Welcome, Future Master Chef!</h1>
+    <p class="welcome-message">
+        We’re excited to have you on this culinary journey. Share your details and let’s cook up something amazing
+        together!
+    </p>
+
+    <form action="veg.html" method="post">
+        <!-- Name -->
+        <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+
+        <!-- Email -->
+        <label for="email">Email</label>
+    <input type="email" required id="email" name="email" placeholder="jovegek648@cotasen.com">
+
+        <!-- Phone Number -->
+        <label for="number">Phone Number</label>
+    <input type="tel" required id="number" name="number" placeholder="Enter your Phone Number" maxlength="10">
+
+        <!-- Date of Birth -->
+        <label for="birthday">Date of Birth</label>
+    <input type="date" required id="birthday" name="birthday">
+
+        <!-- Veg Non-Veg Vegan -->
+        <h3>Your Dining Style</h3>
+        <label><input type="checkbox" name="Dining" value="Veg"> Veg</label>
+        <label><input type="checkbox" name="Dining" value="Non-Veg"> Non-Veg</label>
+        <label><input type="checkbox" name="Dining" value="Vegan"> Vegan</label>
+
+        <button >Submit</button>
+    </form>
+</body>
+
+</html>
