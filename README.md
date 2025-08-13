@@ -4,6 +4,9 @@ A beautifully designed, responsive recipe website that brings together culinary 
 
 ![Recipe Website Preview](recipe%20favicon.png)
 
+## 🌐 **Live Website**
+**[Visit Flavors Unlocked →](https://amr2007.github.io/Recipe_web/)**
+
 ## ✨ Features
 
 - **🌍 Global Cuisine**: Recipes from India, Italy, Japan, USA, UK, France, and the Middle East
@@ -144,9 +147,10 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact
 
 For questions, suggestions, or collaboration opportunities:
-- **Project Repository**: [GitHub Repository Link]
-- **Issues**: Use GitHub Issues for bug reports and feature requests
-- **Contributions**: Submit pull requests or use the contribution form
+- **🌐 Live Website**: [https://amr2007.github.io/Recipe_web/](https://amr2007.github.io/Recipe_web/)
+- **📂 Project Repository**: [https://github.com/amr2007/Recipe_web](https://github.com/amr2007/Recipe_web)
+- **🐛 Issues**: Use [GitHub Issues](https://github.com/amr2007/Recipe_web/issues) for bug reports and feature requests
+- **📤 Contributions**: Submit pull requests or use the contribution form on the website
 
 ## 🔮 Future Enhancements
 
